@@ -12,7 +12,7 @@ header.hero {
   color: white;
 }
 .logo {
-  max-width: 150px;
+  max-width: 180px;
   margin-bottom: 20px;
 }
 h1 {
@@ -49,6 +49,11 @@ h1 {
 }
 .tile h2 {
   margin-top: 0;
+}
+.about-photo {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 .map-link {
   display: inline-block;

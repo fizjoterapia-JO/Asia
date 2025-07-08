@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.post("/api/book", async (req, res) => {
   const { name, phone, date, service } = req.body;
 
-  const paymentUrl = `https://twojeplatnosci.pl/pay?amount=150&desc=${encodeURIComponent(service)}`;
+  const paymentUrl = `https://twojeplatnosci.pl/pay?amount=200&desc=${encodeURIComponent(service)}`;
 
   res.json({ paymentUrl });
 });

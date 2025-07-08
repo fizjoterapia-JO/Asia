@@ -1,10 +1,9 @@
 ✅ Instrukcja
 
-1️⃣ Zaloguj się do GitHub i utwórz nowe repozytorium.
-2️⃣ Kliknij "Add file" → "Upload files".
-3️⃣ Wgraj wszystkie pliki z tego ZIP.
-4️⃣ Kliknij "Commit changes".
-5️⃣ Podłącz repozytorium do Vercel (https://vercel.com/) → "New Project" → wybierz repozytorium → "Deploy".
-6️⃣ Gotowe! Strona działa online.
+1️⃣ Umieść swoje zdjęcie w pliku "moje_zdjecie.jpg".
+2️⃣ Zaloguj się do GitHub, utwórz repozytorium i wgraj pliki (index.html, style.css, script.js, logo.jpeg, moje_zdjecie.jpg, backend.js).
+3️⃣ Podłącz repozytorium do Vercel → "New Project" → wybierz repo → "Deploy".
+4️⃣ Backend uruchom przez Node.js (backend.js), uzupełnij dane Twilio.
+5️⃣ Formularz rezerwacji automatycznie kieruje do płatności online.
 
 Powodzenia! 🚀
