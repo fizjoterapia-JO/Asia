@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>fizJOterapia Joanna Olenderek</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <img src="logo.jpeg" alt="Logo" class="logo">
+    <h1>fizJOterapia Joanna Olenderek</h1>
+    <p>Profesjonalna opieka, indywidualne podejście i skuteczna rehabilitacja</p>
+    <a href="#rezerwacja" class="cta-btn">Umów wizytę</a>
+  </header>
+
+  <section class="about">
+    <h2>Dlaczego warto?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Indywidualne podejście</h3>
+        <p>Każdy pacjent traktowany jest wyjątkowo i otrzymuje plan terapii dostosowany do swoich potrzeb.</p>
+      </div>
+      <div class="card">
+        <h3>Nowoczesne metody</h3>
+        <p>Wykorzystuję najnowsze techniki i sprzęt, aby przyspieszyć Twój powrót do zdrowia.</p>
+      </div>
+      <div class="card">
+        <h3>Doświadczenie</h3>
+        <p>Wieloletnia praktyka pozwala skutecznie pomagać w różnorodnych dolegliwościach.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="rezerwacja" class="reservation">
+    <h2>Umów wizytę</h2>
+    <form id="bookingForm">
+      <input type="text" name="name" placeholder="Imię i nazwisko" required>
+      <input type="email" name="email" placeholder="Adres e-mail" required>
+      <input type="tel" name="phone" placeholder="Numer telefonu" required>
+      <input type="date" name="date" required>
+      <select name="service" required>
+        <option value="">Wybierz usługę</option>
+        <option value="Terapia manualna">Terapia manualna</option>
+        <option value="Rehabilitacja ortopedyczna">Rehabilitacja ortopedyczna</option>
+        <option value="Masaż leczniczy">Masaż leczniczy</option>
+      </select>
+      <button type="submit">Zarezerwuj i zapłać</button>
+    </form>
+    <p id="confirmation" style="display:none;">Dziękujemy! Zostałeś przekierowany do płatności.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 fizJOterapia Joanna Olenderek | kontakt@fizjo.pl | Tel: 500-600-700</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+✅ Instrukcja
+
+1️⃣ Zaloguj się do GitHub i utwórz nowe repozytorium.
+2️⃣ Kliknij "Add file" → "Upload files".
+3️⃣ Wgraj wszystkie pliki z tego ZIP.
+4️⃣ Kliknij "Commit changes".
+5️⃣ Podłącz repozytorium do Vercel (https://vercel.com/) → "New Project" → wybierz repozytorium → "Deploy".
+6️⃣ Gotowe! Strona działa online.
+
+Powodzenia! 🚀
