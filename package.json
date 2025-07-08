@@ -1,0 +1,16 @@
+{
+  "name": "fizjoterapia-website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.11.0",
+    "@stripe/stripe-js": "^1.49.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
